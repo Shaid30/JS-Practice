@@ -78,7 +78,7 @@
     <script>
         var i;
         for (i = 0; i < 10; i = i + 1) {
-            document.write(i + "<button>Submit</button><br>");
+            document.write(i + "<button>for loop</button><br>");
         }
     </script>
     <script>
@@ -87,7 +87,7 @@
             if (i == 4) {
                 continue;
             }
-            document.write(i + "<button>Submit</button><br>");
+            document.write(i + "<button>for loop</button><br>");
         }
     </script>
     <script>
@@ -96,7 +96,7 @@
             if (i == 4) {
                 break;
             }
-            document.write(i + "<button>Submit</button><br>");
+            document.write(i + "<button>for loop</button><br>");
         }
     </script>
     <script>
@@ -113,6 +113,22 @@
             document.write(i + "do while loop");
             i = i + 1
         } while (i < 3)
+    </script>
+    <script>
+        function addTwoNumber() {
+            var num1 = 20;
+            var num2 = 30;
+            var num3 = num1 + num2;
+            document.write(num3)
+        }
+        addTwoNumber();
+    </script>
+    <script>
+        function addTwoNumber(num1, num2) {
+            num3 = num1 + num2;
+            document.write(num3)
+        }
+        addTwoNumber(234, 234);
     </script>
 </body>
 
