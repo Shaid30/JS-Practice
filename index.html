@@ -77,13 +77,13 @@
     </script>
     <script>
         var i;
-        for (i = 0; i < 10; i = i + 1) {
+        for (i = 0; i < 4; i = i + 1) {
             document.write(i + "<button>for loop</button><br>");
         }
     </script>
     <script>
         var i;
-        for (i = 0; i < 10; i = i + 1) {
+        for (i = 0; i < 5; i = i + 1) {
             if (i == 4) {
                 continue;
             }
@@ -92,7 +92,7 @@
     </script>
     <script>
         var i;
-        for (i = 0; i < 10; i = i + 1) {
+        for (i = 0; i < 6; i = i + 1) {
             if (i == 4) {
                 break;
             }
@@ -156,10 +156,22 @@
     </script>
     <script>
          var category =["Allium","Apple", "mango","Orange"]
-         for(var bostu in category){
-            document.write(category[bostu])
+         for(var item in category){
+            document.write(category[item])
          }
 
+    </script>
+    <script>
+        var Person={
+            name :"Jack",
+            age : 24,
+            city:"London",
+
+
+        }
+        for(var item in Person){
+            document.write(Person[item]+"<br>")
+        }
     </script>
 </body>
 
