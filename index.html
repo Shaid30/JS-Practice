@@ -186,12 +186,27 @@
     </script>
     <script>
         var numArray=[32,45,56,57,59,67,25]
-       var result2= numArray.filter(function(item){
+        var result2= numArray.filter(function(item){
             return item>50
 
         });
         document.write(result2);
         
+    </script>
+    <script>
+        var numArray=[32,45,56,57,59,67,25]
+        var result3= numArray.find(function(value){
+            return value>50
+        });
+        document.write(result3)+'<br>';
+
+
+        var numArray=[32,45,56,57,59,67,25]
+        var result3= numArray.findIndex(function(value){
+            return value>32
+        });
+        document.write(result3);
+
     </script>
 </body>
 
