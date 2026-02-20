@@ -32,7 +32,9 @@
     <p id="demon"></p>
 
     <script> document.getElementById("demon").innerText = "Hello World!";</script>
-    <script>var A = {
+        <script>
+            /* 0bject*/
+            var A = {
             Name: "Abu Shaid",
             Age: '22'
 
@@ -40,10 +42,13 @@
         }
         document.write(A.Age)</script>
     <script>
+         /* Array*/
+
         var A = ["Dhaka", "Barisal", "Khulna"]
         document.write(A)
     </script>
     <script>
+         /* if else conditions*/
         var Marks = 77
         if (Marks >= 80 && Marks <= 100) {
             document.write("Your  grade A+")
@@ -58,6 +63,7 @@
 
     </script>
     <script>
+         /* if else using switch case */
         var x = 40
         switch (true) {
             case (x >= 80 && x <= 100):
@@ -76,21 +82,24 @@
 
     </script>
     <script>
+         /* for loop */
         var i;
         for (i = 0; i < 4; i = i + 1) {
             document.write(i + "<button>for loop</button><br>");
         }
     </script>
     <script>
+         /* for loop using continue */
         var i;
         for (i = 0; i < 5; i = i + 1) {
-            if (i == 4) {
+            if (i == 2) {
                 continue;
             }
             document.write(i + "<button>for loop</button><br>");
         }
     </script>
     <script>
+         /* for loop using break statement*/
         var i;
         for (i = 0; i < 6; i = i + 1) {
             if (i == 4) {
@@ -100,6 +109,7 @@
         }
     </script>
     <script>
+         /* While loop */
         var i = 0;
         while (i < 3) {
             document.write(i + "While loop");
@@ -108,6 +118,7 @@
 
     </script>
     <script>
+         /* do while loop */
         var i = 0;
         do {
             document.write(i + "do while loop");
@@ -115,6 +126,7 @@
         } while (i < 3)
     </script>
     <script>
+         /* function */
         function addTwoNumber() {
             var num1 = 20;
             var num2 = 30;
@@ -124,6 +136,7 @@
         addTwoNumber();
     </script>
     <script>
+         /* function using parameter */
         function addTwoNumber(num1, num2) {
             num3 = num1 + num2;
             document.write(num3)
@@ -131,6 +144,7 @@
         addTwoNumber(234, 234);
     </script>
     <script>
+         /* function using return */
         function addNumber(n1, n2) {
             return n1 + n2
         }
@@ -138,6 +152,7 @@
         document.write(newValue)
     </script>
     <script>
+         /* 0bject*/
         var Product = {
             Name: "Laptop",
             Price: "23K",
@@ -174,6 +189,7 @@
         }
     </script>
     <script>
+         /* array concation */
         var arr1 =["labib","loison","lafanga"];
         var arr2 =["lutuput","noyon","jabir"];
         var reslut = arr1.concat(arr2);
@@ -203,18 +219,20 @@
 
         var numArray=[32,45,56,57,59,67,25]
         var result3= numArray.findIndex(function(value){
-            return value>32
+            return value>45
         });
         document.write(result3);
 
     </script>
     <script>
+         /* array er moddhe forEach & function*/
         var numArray=[65,67,53,87,53,89]
         numArray.forEach(function(item){
             document.write(item+"<br/>")
         });
     </script>
     <script>
+         /* array includes & indexof, if the item stay in array result true &  indexof -1 */
         var arr= [98,84,82,45,67,34];
         var reslut= arr.includes(98)
         document.write(reslut);
@@ -227,25 +245,27 @@
     </script>
 
     <script>
+         /* array reverse */
         var arr= [98,84,82,45,67,34];
         var reslut= arr.reverse()
         document.write(reslut);
 </script>
 <script>
+     /* array push method */
         var arr= [98,84,82,45,67,34];
         arr.push(12)
         arr.push(35)
         document.write(arr);
 </script>
 <script>
+     /* array pop method */
         var arr= [98,84,82,45,67,34];
         arr.pop()
         arr.pop()
         document.write(arr);
 
-
-
     </script>
+    
 </body>
 
 
