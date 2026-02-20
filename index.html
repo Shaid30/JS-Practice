@@ -265,6 +265,32 @@
         document.write(arr);
 
     </script>
+    <script>
+         /* array slice & sort*/
+
+         var numarray =[65,87,90,45,23,36];
+         var result4= numarray.slice(1,4)
+         document.write(result4);
+
+         var numarray =[65,87,90,45,23,36];
+         var result4= numarray.sort()
+         document.write(result4);
+
+         var numarray =[65,87,90,45,23,36];
+         var result4= numarray.sort().reverse()
+         document.write(result4);
+    </script>
+
+    <script>
+        /* splice method (index,removeCount,item)*/
+         var numarray =[65,87,90,45,23,36];
+         numarray.splice(2,2)
+         document.write(numarray);
+
+         var numarray =[65,87,90,45,23,36];
+         numarray.splice(0,0,64)
+         document.write(numarray);
+    </script>
     
 </body>
 
