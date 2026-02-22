@@ -386,11 +386,44 @@
 
         var num = 7.67653796;
         document.write(num.toFixed(3));
-<br>
         
         var num = 7.61345678;
         document.write(num.toString());
 
+    </script>
+    <button onclick="ObjAlert()">Click</button>
+    <button onclick="ObjConfirm()">Click</button>
+    <button onclick ="ObjPrompt()">Click</button>
+    <button onclick ="ObjOpen()">Click</button>
+    <button onclick ="ObjClose()">Click</button>
+
+    <script>
+        function ObjAlert(){
+            alert("save success");
+        }
+
+         function ObjConfirm(){
+            let result = confirm("do you want to delete");
+            document.write(result);
+
+        }
+
+        function ObjPrompt(){
+            let result = prompt("Write something");
+            document.write(result);
+        }
+
+        function ObjOpen(){
+            open();
+        }
+
+        function ObjClose(){
+            close();
+        }
+
+        setTimeout(function(){
+            alert("after 10 second")
+        },10000)
     </script>
     
 </body>
