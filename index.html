@@ -425,6 +425,26 @@
             alert("after 10 second")
         },10000)
     </script>
+
+    <script>
+    /* Navigator object */
+     var appCodeName =navigator.appCodeName;
+     var appName = navigator.appName;
+     var language = navigator.language;
+
+     document.write(appCodeName);
+     document.write(appName);
+     document.write(language);
+    </script>
+
+    <button onclick="MyEvent('click hoyese')">click</button>
+    <button onmouseover="MyEvent('mouse over hoyese')">click</button>
+    <button onmouseout="MyEvent('mouse out hoyese')">click</button>
+    <script>
+        function MyEvent(msg){
+            console.log(msg)
+        }
+    </script>
     
 </body>
 
