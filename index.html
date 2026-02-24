@@ -445,6 +445,18 @@
             console.log(msg)
         }
     </script>
+
+    <h1 id="myid"></h1>
+    <h2 class="myclass"></h2>
+    <h5 class="myclass"></h5>
+
+    <script>
+        var MyElement = document.getElementById("myid");
+        MyElement.innerHTML="Eid Mobarak";
+
+        var MyElements = document.getElementsByClassName("myclass");
+        MyElements[1].innerHTML = "Ramadan";
+    </script>
     
 </body>
 
