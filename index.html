@@ -469,7 +469,21 @@
         w.document.close();
     }
    
-    
+</script>
+
+<input id="num1"><br> <br>
+<input id="num2"><br> <br>
+
+<button onclick="addTwoNumber()">Add</button>
+<script>
+    function addTwoNumber(){
+        var num1=document.getElementById('num1').value;
+        var num2= document.getElementById('num2').value;
+
+        var result = parseFloat(num1)+parseFloat(num2);
+
+        alert(result);
+    }
 </script>
 </body>
 
