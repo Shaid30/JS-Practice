@@ -502,6 +502,21 @@
 
     
 </script>
+
+<ul id="MyItems"></ul> <br> <br>
+<input id="MyInput"> <br> <br>
+<button onclick="AddItem()">Add</button>
 </body>
+<script>
+    function AddItem(){
+       var itemValue= document.getElementById('MyInput').value;
+
+       var listItem=document.createElement('li');
+       listItem.innerHTML=itemValue;
+    
+       var MyItems= document.getElementById('MyItems');
+       MyItems.appendChild(listItem)
+    }
+</script>
 
 </html>
