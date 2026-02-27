@@ -506,7 +506,6 @@
 <ul id="MyItems"></ul> <br> <br>
 <input id="MyInput"> <br> <br>
 <button onclick="AddItem()">Add</button>
-</body>
 <script>
     function AddItem(){
        var itemValue= document.getElementById('MyInput').value;
@@ -518,5 +517,20 @@
        MyItems.appendChild(listItem)
     }
 </script>
+<img id="MyImg" 
+width="200"
+height="200"
+src=
+"Black Professional Finance YouTube Thumbnail.png"/>
+<button onclick="ChangeAttr()">Change</button>
+
+<script>
+    function ChangeAttr(){
+        var MyImg= document.getElementById("MyImg");
+        MyImg.height="400"
+
+    }
+</script>
+</body>
 
 </html>
