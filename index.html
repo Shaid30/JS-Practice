@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">">
 </head>
 <h1>My First JavaScript</h1>
 <button type="button" onclick="document.getElementById('demo').innerHTML= Date()"> Click me to Display Date &
@@ -484,6 +485,22 @@
 
         alert(result);
     }
+</script>
+<h1 id = "MyID" class="text-primary"> Bangladesh</h1>
+<button onclick="AddStyle()">Add Style</button>
+<button onclick="RemoveStyle()">Remove style</button>
+<script>
+    function AddStyle(){
+        let H1tag=document.getElementById("MyID");
+        H1tag.classList.add('text-primary');
+    }
+
+    function RemoveStyle(){
+        let H1tag= document.getElementById("MyID");
+        H1tag.classList.remove('text-primary');
+    }
+
+    
 </script>
 </body>
 
