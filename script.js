@@ -3,6 +3,5 @@
 
  }
     
- document.write(5+6);
- window.alert("Hello Mr. Abu shaid")
+ document.write(5+9);
  console.log("hello")
