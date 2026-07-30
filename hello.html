@@ -149,7 +149,23 @@ setTimeout(function(){
 
 },3000);
 
+let timer = setTimeout(function(){
+    document.write("khanki")
+},5000);
 
+clearTimeout(timer);
+
+/*setInterval(function(){
+    document.write("Hello")
+},2000);*/
+
+let timers = setInterval(function(){
+    document.write('hello world');
+},1000);
+ setTimeout(function(){
+    clearInterval(timers);
+    document.write("stopped")
+ },3000);
 
 </script>
     
