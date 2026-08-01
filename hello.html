@@ -205,5 +205,19 @@ document.write(calculator.add(10,8));
 document.write(calculator.sub(23,10));
 
 
+//object this keyword
+
+const persons ={
+    name :"Mohidul",
+
+    intro: function(){
+        document.write (" my name is"+ this.name)
+    }
+
+};
+persons.intro();
+
+
+
 </script>
 </html>
