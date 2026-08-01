@@ -217,7 +217,15 @@ const persons ={
 };
 persons.intro();
 
+const people ={
+    name :"Asad",
+    home : "Darshana",
 
+    fullAddress : function(){
+        return this.name +""+this.home;
+    }
+};
+document.write(people.fullAddress());
 
 </script>
 </html>
