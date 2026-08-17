@@ -370,5 +370,28 @@ numbers2.add(30);
 numbers2.add(20);
 
 console.log(numbers2);
+//javascript maps 
+
+const users = new Map();
+
+users.set(1, "Abu");
+users.set(2, "Rahim");
+users.set(3, "Karim");
+
+console.log(users.get(2));
+
+console.log(users.has(3));
+
+console.log(users.size);
+
+for (const [id, name] of users) {
+    console.log(id, name);
+}
+
+users.delete(3);
+
+console.log(users);
+
+
 </script>
 </html>
